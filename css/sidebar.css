@@ -1,0 +1,89 @@
+.side-bar {
+    margin: 24px -12px 24px 12px;
+    padding-right: 48px;
+}
+
+.side-title {
+    color: red;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14pt;
+    padding-top: 12px;
+    margin-bottom: 24px;
+}
+
+.side-heds {
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.bullet {
+    position: relative;
+    padding-right: 12px;
+    top: 0px;
+    left: -24px;
+    color: red;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.side-divider {
+    margin: 24px auto 6px;
+}
+
+a.bullet-heds, a.bullet-heds:visited {
+    color: black;
+}
+    
+a.bullet-heds:hover {
+    color: black;
+    text-emphasis-style: underline;
+}
+
+.see-all {
+    position: relative; 
+    width: 100%;
+    margin-top: 24px;
+    margin-left: 12px;
+    padding: 18px 40px;
+    border-left: none;
+    background: gainsboro;
+    color: gray;
+    font-size: 11pt;
+}
+
+@media screen and (max-width: 1200px) {
+    .side-title {
+        font-size: 10pt;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .side-bar {
+        background-color:  #f7f7f7;
+        margin: auto -15px auto -15px;
+    }
+
+    .side-title {
+        text-align: center;
+        font-size: 16pt;
+        padding-top: 24pt;
+    }
+
+    .side-heds {
+        text-align: center;
+        padding-left: 4em;
+    }
+
+    .bullet {
+        text-align: center;
+    }
+
+    .see-all {
+        margin-bottom: 66px;
+        text-align: center;
+        margin-left: 28px;
+        width: 100%;
+        display: block;
+    }
+}

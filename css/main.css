@@ -1,0 +1,57 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.main-article {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.sub-article {
+    height: 700px;
+    margin-bottom: 12px;
+}
+
+.sponsor-content {
+    background: #e6ffff;
+}
+
+a, a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #66afe9;
+    text-emphasis-style: underline;
+}
+
+@media screen and (min-width: 992px) {
+    .main-article {
+        position: relative;
+    }
+    .main-hed {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-width: 3px 0 0;
+        border-style: solid;
+        border-color: red;
+        background: linear-gradient(to top, rgba(255,255,255,1.0) 30%, rgba(255,255,255,0.6))
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .sub-article, .sponsor-content {
+        height: 624px;
+    }
+
+    }
